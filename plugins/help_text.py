@@ -80,5 +80,5 @@ async def about(bot, update):
         reply_to_message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text="⭕️ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⭕️", url="https://t.me/KOT_BOTS")],
                                              [ InlineKeyboardButton(text="⭕ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ⭕", url="https://t.me/KOT_REPORS"),
-                                               InlineKeyboardButton(text="👤 SOURCE CODE 👤", url="https://t.me/KOT_SOURCE_CODE")]]))
+                                               InlineKeyboardButton(text="👤 SOURCE CODE 👤", url="https://t.me/KOT_SOURCE_CODE") ] ] ) )
                      
